@@ -36,7 +36,8 @@ public class Rain {
   public void draw(Graphics2D g2) {
     // Sets the context before drawing
     g2.setStroke(new BasicStroke(2));
-    g2.setColor(new Color(89, 177, 254));
+    g2.setColor(new Color(255, 0, 0));
+    //Testing github etc just random comment here
     g2.drawLine(x, y, x, y + length);
     drop();
   }
