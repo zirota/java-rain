@@ -37,7 +37,7 @@ public class Rain {
     // Sets the context before drawing
     g2.setStroke(new BasicStroke(2));
     g2.setColor(new Color(255, 0, 0));
-    //Testing github etc
+    //Testing github etc just random comment here
     g2.drawLine(x, y, x, y + length);
     drop();
   }
